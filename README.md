@@ -7,8 +7,6 @@ Cyclistic is a fictional bike-sharing company based in Chicago. Financial analys
 
 To achieve this goal, it is essential to gain a deeper understanding of how these two rider groups differ in their usage patterns.
 
-This capstone project provides an opportunity to apply the skills we've developed throughout the program, including: **data cleaning, analysis, and visualization**  to answer the company's central business question and support data-driven decision-making.
-
 ## Data Analysis Process Phases:
 
 **1. Ask: Define the problem and confirm stakeholder expectations**
@@ -23,3 +21,9 @@ This capstone project provides an opportunity to apply the skills we've develope
 
 **6. Act: Put your insights to work in order to solve the original problem**
 
+## Conclusion
+This capstone project provided an opportunity to apply the skills we've developed throughout the program, including: **data cleaning, analysis, and visualization**  to answer the company's central business question and support data-driven decision-making.
+
+All relevant material, including code and visuals are documented within the files provided in this repository.
+
+Thank you!
