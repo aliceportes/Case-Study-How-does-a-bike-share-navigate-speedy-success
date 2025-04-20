@@ -11,10 +11,15 @@ This capstone project provides an opportunity to apply the skills we've develope
 
 ## Data Analysis Process Phases:
 
-**1: Ask: Define the problem and confirm stakeholder expectations**
-**2: Prepare: Collect and store data for analysis**
-**3: Process: Clean and transform data to ensure integrity**
-**4: Analyze: Use data analysis tools to draw conclusions**
-**5: Share: Interpret and communicate results to others to make data-driven decisions**
-**6: Act: Put your insights to work in order to solve the original problem**
+**1. Ask: Define the problem and confirm stakeholder expectations**
+
+**2. Prepare: Collect and store data for analysis**
+
+**3. Process: Clean and transform data to ensure integrity**
+
+**4. Analyze: Use data analysis tools to draw conclusions**
+
+**5. Share: Interpret and communicate results to others to make data-driven decisions**
+
+**6. Act: Put your insights to work in order to solve the original problem**
 
