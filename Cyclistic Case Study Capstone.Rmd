@@ -1,0 +1,96 @@
+---
+title: "Cyclistic Case Study Capstone"
+author: "Alice Portes"
+date: "2025-04-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Google Data Analytics - Case Study: How does a Bike-Share Navigate Speedy Sucess?
+
+
+## 1. Introduction
+
+Cyclistic is a bike-sharing company based in Chicago, offering flexible bike rental options through a vast network of docking stations. Riders can choose between casual pay-as-you-go plans and annual memberships.
+
+As the company continues to grow, Cyclistic is exploring new strategies to increase customer retention and boost long-term revenue. One key area of interest is understanding how to encourage more casual riders to convert into annual members.
+
+
+## 2. Scenario
+
+The Cyclistic marketing team is conducting a detailed analysis of rider behavior. The goal is to uncover patterns and insights that can guide targeted marketing campaigns and inform business decisions aimed at expanding the member base.
+
+By gaining insights from the data, this analysis aims to provide actionable recommendations to help convert more casual riders into loyal annual members.
+
+
+## 3. Ask Phase
+
+The business task - 
+The Cyclistic marketing team wants to design strategies that encourage casual riders to become annual members. 
+
+To support this goal, the data analysis team has been asked to analyze historical bike trip data to identify key differences in usage patterns between casual riders and annual members. These insights will help inform marketing recommendations that are data-driven and tailored to user behavior.
+
+## 4. Prepare Phase
+
+**Where is the data located?**
+The data used in this analysis is publicly available and was downloaded from [Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
+**How is the data organized?**
+the data is organized into monthly CVS files
+
+**How are you addressing licensing?**
+The data license can be found on [License](https://www.divvybikes.com/data-license-agreement)
+
+## 5. Process Phase
+
+**What tools are you choosing and why?**
+I chose R as my primary tool for data cleaning and transformation. The dataset was too large to handle efficiently in Excel or traditional spreadsheet tools, which made R the ideal choice.
+And for data visualization, I used Tableau. Although I’m still familiarizing myself with the software and found it a bit challenging at first, I really enjoyed working with it.
+
+**loading and setting up environment**
+
+installing packages
+```{r installing packages}
+install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("lubridate")
+```
+
+```{r loading packages}
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+```
+
+```{r loading data}
+setwd("C:/Users/alice/OneDrive/Documentos/An??lise de dados Coursera + Google/MODULE 8/Case study 1/202404???202503_Cyclistic")
+```
+
+```{r get all the csv files and store them in a variable}
+aggregate_files <- list.files(pattern = "*.csv")
+```
+
+```{r read and map all the csv files in the aggregate_files}
+aggregate_data <- map_df(aggregate_files, read_csv)
+```
+
+## 6. Data Cleaning Phase
+After consolidating the data in the previous phase, I performed several key cleaning steps:
+
+* Checked for and handled missing values
+
+* Removed any duplicate entries
+
+* Standardized formats for date and time fields
+
+* Filtered out invalid data, such as rides with negative or zero duration
+
+
+
+
+
+
+
