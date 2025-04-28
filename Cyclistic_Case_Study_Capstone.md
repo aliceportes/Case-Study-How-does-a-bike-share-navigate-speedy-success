@@ -54,18 +54,25 @@ I chose **R** for data cleaning and transformation due to the dataset's large si
 install.packages("tidyverse")
 install.packages("dplyr")
 install.packages("lubridate")
+```
 
+```r
 # Loading packages
 library(tidyverse)
 library(dplyr)
 library(lubridate)
+```
 
+```r
 # Setting working directory
 setwd("C:/Users/alice/OneDrive/Documentos/Analise de dados Coursera + Google/MODULE 8/Case study 1/202404202503_Cyclistic")
+```
 
+```r
 # Aggregating data
 aggregate_files <- list.files(pattern = "*.csv")
 aggregate_data <- map_df(aggregate_files, read_csv())
+```
 
 ---
 
