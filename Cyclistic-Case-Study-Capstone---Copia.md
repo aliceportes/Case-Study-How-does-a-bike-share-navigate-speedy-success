@@ -246,7 +246,7 @@ journey, I also created a short PowerPoint presentation summarizing the
 project, which can be found in this repository
 
 - Comparing the number of rides per month
-  ![](comparing_monthly_usage_patterns.png)
+![](Images/comparing_monthly_usage_patterns.png)
 
 **Insights**
 
