@@ -244,7 +244,6 @@ project, which can be found in this repository
 
 
 ### Top 5 Starting and Ending Stations
-
 ![](Images/top_5_start_end_stations_for_casual_members.png)
 
 **Insights:**
