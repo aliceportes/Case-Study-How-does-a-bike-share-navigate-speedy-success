@@ -244,8 +244,8 @@ project, which can be found in this repository
 
 
 ### Top 5 Starting and Ending Stations
-![](Images/top_5_start_end_stations_for_casual_members.png)
 
+![](Images/top_5_start_end_stations_for_casual_members.png)
 **Insights:**
 - Both casual riders and annual members exhibit distinct top 5 stations.
 - Starting and ending stations for each group are identical.
