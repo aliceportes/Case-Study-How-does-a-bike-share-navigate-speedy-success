@@ -87,13 +87,13 @@ key cleaning steps:
 ``` r
 cyclistic_clean_data <- aggregate_data %>% 
   select("ride_id", "rideable_type", "started_at", "ended_at",
-         "start_station_name", "end_station_name", "member_casual") %>% 
+         "start_station_name", "end_station_name", "member_casual")  
 ```
 
 - Removes all rows that contain missing values
 
 ``` r
-na.omit() %>% 
+na.omit()  
 ```
 
 - Calculates the duration of each ride in minutes and extracts the day
@@ -271,6 +271,8 @@ and marketing efforts:
   casual riders by transforming their favorite stations into marketing
   hotspots, add eye-catching materials, easy sign-up QR codes, and
   irresistible first-ride rewards.
+
+---
 
 ## Final Remarks
 Thank you for reviewing my project!
