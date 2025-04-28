@@ -69,22 +69,12 @@ aggregate_data <- map_df(aggregate_files, read_csv())
 
 ---
 
-
 ## 6. Data Cleaning Phase
 
 After consolidating the data in the previous phase, I performed several
 key cleaning steps:
 
-- Checked for and handled missing values
-
-- Removed any duplicate entries
-
-- Standardized formats for date and time fields
-
-- Filtered out invalid data, such as rides with negative or zero
-  duration
-
-- Removes any unnecessary columns to clean up the dataset
+- Created a new data frame and selected necessary columns for analysis.
 
 ``` r
 cyclistic_clean_data <- aggregate_data %>% 
@@ -104,8 +94,7 @@ na.omit() %>%
 ``` r
 mutate(trip_length = as.numeric(difftime(ended_at, started_at, units = "mins")),
          weekday = format(as.Date(started_at), "%A")) %>% 
-  select("ride_id", "rideable_type","started_at", "ended_at", "start_station_name", "end_station_name",
-         "weekday", "trip_length", "member_casual") %>% 
+  select("ride_id", "rideable_type","started_at", "ended_at", "start_station_name", "end_station_name", "weekday", "trip_length", "member_casual") 
 ```
 
 - Filters the dataset to include only rides with a trip length between 1
