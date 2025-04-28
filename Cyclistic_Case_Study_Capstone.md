@@ -215,7 +215,8 @@ ride_length <- cyclistic_clean_data %>%
 
 For visualization, I selected **Tableau**, another tool introduced in the course, to create interactive dashboards and effectively communicate key findings.
 These visualizations reveal trends and patterns critical to understanding the differences between casual riders and annual members.
-To showcase everything I’ve learned throughout this
+
+Additionally, to showcase everything I’ve learned throughout this
 journey, I also created a short PowerPoint presentation summarizing the
 project, which can be found in this repository
 
@@ -259,18 +260,15 @@ Based on the insights from all the visuals and analysis, here are the
 top three strategic recommendations to enhance Cyclistic’s operations
 and marketing efforts:
 
-- 1: **Leverage seasonal peaks to target casual riders** - Launch seasonal
-  promotions and campaigns during late spring and summer to convert
-  casual riders into members.
+1. **Leverage seasonal peaks to target casual riders:**  
+Launch seasonal promotions and campaigns during late spring and summer to convert casual riders into members.
 
-- 2: **Develop weekend strategies** - Introduce partnerships with tourist
-  attractions to appeal to casual riders and access to coupons at
-  restaurants and events to enhance their experience.
+2. **Develop weekend strategies:**  
+Introduce partnerships with tourist attractions and offer coupons at restaurants and events to enhance their experience.
 
-- 3: **Optimize and enhance services around key hub stations** - Attract
-  casual riders by transforming their favorite stations into marketing
-  hotspots, add eye-catching materials, easy sign-up QR codes, and
-  irresistible first-ride rewards.
+3. **Optimize and enhance services around key hub stations:**  
+Transform favorite stations into marketing hotspots with eye-catching materials, easy sign-up QR codes, and attractive first-ride rewards.
+
 
 ---
 
