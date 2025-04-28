@@ -246,7 +246,8 @@ journey, I also created a short PowerPoint presentation summarizing the
 project, which can be found in this repository
 
 - Comparing the number of rides per month
-  ![](comparing_monthly_usage_patterns.png)
+  
+  ![](Images/comparing_monthly_usage_patterns.png)
 
 **Insights**
 
@@ -261,7 +262,10 @@ project, which can be found in this repository
   bike usage during the summer months
 
 - Comparing the number of rides per days of the week
-  ![](comparing_weekly_usage_patterns.png) **Insights**
+  
+  ![](Images/comparing_weekly_usage_patterns.png)
+
+  **Insights**
 
 - Casual Riders peak usage occurs on weekends, especially Saturday -
   usage significantly drops on weekdays, which suggests casual users
@@ -273,7 +277,9 @@ project, which can be found in this repository
   routines
 
 - Top 5 Starting and End Stations
-  ![](top_5_start_end_stations_for_casual_members.png) **Insights**
+  ![](Images/top_5_start_end_stations_for_casual_members.png)
+
+  **Insights**
 
 - Both casual riders and members exhibit distinct top 5 stations
 
