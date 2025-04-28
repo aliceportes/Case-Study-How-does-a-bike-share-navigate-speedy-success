@@ -4,7 +4,7 @@ This project was developed as part of the capstone for the Google Data Analytics
 
 ---
 
-## 📖 Overview
+## Overview
 
 This case study analyzes how casual riders and annual members use Cyclistic’s bike-sharing service differently. The goal is to provide insights and recommendations to help convert more casual riders into annual members.
 
