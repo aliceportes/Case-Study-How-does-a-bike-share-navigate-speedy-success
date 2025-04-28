@@ -1,5 +1,5 @@
 # Cyclistic: Case Study
-This case study is part of the Google Data Analytics course capstone.
+This project was developed as part of the capstone for the Google Data Analytics Professional Certificate.
 
 
 ## Overview
@@ -43,7 +43,7 @@ This case study analyzes how casual riders and annual members use Cyclistic’s 
 
 ## Project Files
 - [Analysis Notebook](https://github.com/aliceportes/Case-Study-How-does-a-bike-share-navigate-speedy-success/blob/main/Cyclistic%20Case%20Study%20Capstone.Rmd)
-- [Interactive Dashboard](link-to-dashboard)
+- [Interactive dashboards for this analysis were created using Tableau and can be viewed on my Tableau Public profile:](https://public.tableau.com/app/profile/alice.portes/vizzes)
 - [Data Source](https://divvy-tripdata.s3.amazonaws.com/index.html) 
 
 
