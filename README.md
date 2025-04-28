@@ -1,11 +1,9 @@
 # Cyclistic: Case Study
-This case study is part of the Google Data Analytics course.
+This case study is part of the Google Data Analytics course capstone.
 
 
 ## Overview
-Cyclistic is a fictional bike-sharing company based in Chicago. Financial analysts at Cyclistic have determined that annual members are significantly more profitable than casual riders. As a result, the marketing analytics team has established a clear objective: develop marketing strategies to convert casual riders into annual members.
-
-To achieve this goal, it is essential to gain a deeper understanding of how these two rider groups differ in their usage patterns.
+This case study analyzes how casual riders and annual members use Cyclistic’s bike-sharing service differently. The goal is to provide insights and recommendations to help convert more casual riders into annual members.
 
 ## Data Analysis Process Phases:
 
