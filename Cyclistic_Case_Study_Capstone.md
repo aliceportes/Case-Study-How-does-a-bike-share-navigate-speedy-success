@@ -245,52 +245,38 @@ Analytics course. To showcase everything I’ve learned throughout this
 journey, I also created a short PowerPoint presentation summarizing the
 project, which can be found in this repository
 
-- Comparing the number of rides per month
-  
-  ![](Images/comparing_monthly_usage_patterns.png)
+### Comparing the Number of Rides per Month
 
-**Insights**
+![](Images/comparing_monthly_usage_patterns.png)
 
-- Casual Riders are Highly Seasonal
+**Insights:**
+- Casual riders are highly seasonal, with ridership peaking during summer months.
+- Ridership drops dramatically during the winter for casual riders.
+- Annual members show more consistent year-round usage.
+- Both groups experience increased bike usage during summer.
 
-- Casual ridership peaks during summer months - Their numbers drop
-  dramatically in the winter
+---
 
-- Members Show Consistent Year-Round Usage
+### Comparing the Number of Rides per Days of the Week
 
-- Both casual riders and annual members show a significant increase in
-  bike usage during the summer months
+![](Images/comparing_weekly_usage_patterns.png)
 
-- Comparing the number of rides per days of the week
-  
-  ![](Images/comparing_weekly_usage_patterns.png)
+**Insights:**
+- Casual rider usage peaks on weekends, especially Saturdays.
+- Weekday usage is significantly lower for casual riders, suggesting a leisure/tourism pattern.
+- Annual members ride most frequently on weekdays, with a peak on Wednesdays, reflecting commuting patterns.
 
-  **Insights**
+---
 
-- Casual Riders peak usage occurs on weekends, especially Saturday -
-  usage significantly drops on weekdays, which suggests casual users
-  likely ride for leisure, tourism, or weekend outings.
+### Top 5 Starting and Ending Stations
 
-- Annual members ride volume is consistently high on weekdays, with a
-  peak on Wednesday - Slight drop during the weekend, particularly on
-  Saturday, implying rides are more often for commuting or daily
-  routines
+![](Images/top_5_start_end_stations_for_casual_members.png)
 
-- Top 5 Starting and End Stations
-  ![](Images/top_5_start_end_stations_for_casual_members.png)
-
-  **Insights**
-
-- Both casual riders and members exhibit distinct top 5 stations
-
-- Starting stations and ending stations for each group are identical
-
-- Top stations for members are mostly located near business districts
-  and transit hubs
-
-- Casual Riders show strong preference for tourist-heavy and scenic
-  locations
-
+**Insights:**
+- Both casual riders and annual members exhibit distinct top 5 stations.
+- Starting and ending stations for each group are identical.
+- Members favor stations near business districts and transit hubs.
+- Casual riders prefer tourist-heavy and scenic locations.
 ## 9. Act Phase
 
 It is time to act!
