@@ -146,6 +146,7 @@ any(duplicated(cyclistic_clean_data$ride_id))
 ``` r
 unique(cyclistic_clean_data$member_casual)
 ```
+---
 
 ## 7. Data Analysis Phase
 
@@ -231,7 +232,6 @@ project, which can be found in this repository
 - Annual members show more consistent year-round usage.
 - Both groups experience increased bike usage during summer.
 
----
 
 ### Comparing the Number of Rides per Days of the Week
 
@@ -242,7 +242,6 @@ project, which can be found in this repository
 - Weekday usage is significantly lower for casual riders, suggesting a leisure/tourism pattern.
 - Annual members ride most frequently on weekdays, with a peak on Wednesdays, reflecting commuting patterns.
 
----
 
 ### Top 5 Starting and Ending Stations
 
@@ -253,8 +252,8 @@ project, which can be found in this repository
 - Starting and ending stations for each group are identical.
 - Members favor stations near business districts and transit hubs.
 - Casual riders prefer tourist-heavy and scenic locations.
-
-  ---
+  
+---
   
 ## 9. Act Phase
 
