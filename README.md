@@ -25,7 +25,6 @@ Following the six phases of the data analysis process:
 
 ## Tools Used
 
-- SQL
 - R
 - Tableau
 - PowerPoint
@@ -44,7 +43,7 @@ Following the six phases of the data analysis process:
 ## Project Files
 
 - Data Cleaning and Analysis Code (`cyclistic_data_cleaning_analysis.R`)
-- Final Report (`Cyclistic Case Study Capstone.Rmd`)
+- Final Report (`Cyclistic Case Study Capstone.md`)
 - Visualization Presentation (`Cyclistic Visualization.pptx`)
 
 ---
