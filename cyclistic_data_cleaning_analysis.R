@@ -28,7 +28,6 @@ cyclistic_clean_data <- aggregate_data %>%
   select("ride_id", "rideable_type", "started_at", "ended_at",
          "start_station_name", "end_station_name", "member_casual") %>% 
   na.omit() %>% 
-  
   mutate(trip_length = as.numeric(difftime(ended_at, started_at, units = "mins")),
          weekday = format(as.Date(started_at), "%A")) %>% 
   select("ride_id", "rideable_type","started_at", "ended_at", "start_station_name", "end_station_name",
