@@ -35,7 +35,7 @@ Following the six phases of the data analysis process:
 ## Process Summary
 
 - **Data Cleaning**: Removed null values, corrected inconsistencies, and standardized formats.
-- **Exploratory Data Analysis (EDA)**: Identified key usage trends between rider types.
+- **Data Analysis**: Identified key usage trends between rider types.
 - **Visualization**: Developed interactive dashboards to showcase usage patterns.
 - **Insights and Recommendations**: Created actionable strategies to improve membership conversion.
 
@@ -67,7 +67,7 @@ Following the six phases of the data analysis process:
 
 ## Interactive Dashboards
 
-Interactive dashboards for this analysis were created using Tableau.  
+Interactive dashboards for this analysis were created using Tableau and can be viewed on my Tableau Public profile
 [View the dashboards here](https://public.tableau.com/app/profile/alice.portes/vizzes)
 
 Dashboards include:
