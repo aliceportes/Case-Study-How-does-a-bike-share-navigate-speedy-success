@@ -41,22 +41,6 @@ Following the six phases of the data analysis process:
 
 ---
 
-## Key Findings
-
-- Casual riders are more active on weekends and prefer shorter rides.
-- Annual members ride more frequently during the week.
-- Seasonal trends reveal higher activity levels during summer months.
-
----
-
-## Recommendations
-
-- Offer weekend-based membership options to appeal to casual riders.
-- Send targeted promotions during peak seasons.
-- Improve the mobile app experience to enhance casual rider engagement.
-
----
-
 ## Project Files
 
 - Data Cleaning and Analysis Code (`cyclistic_data_cleaning_analysis.R`)
@@ -74,12 +58,6 @@ Dashboards include:
 - Comparing Monthly Usage Patterns: A Key to Targeting Casual Riders
 - Top 5 Starting and End Stations
 - Weekly Riding Patterns: Casual Riders vs Members
-
----
-
-## Data Source
-
-The dataset was provided by Cyclistic for educational purposes through the Google Data Analytics Capstone project.
 
 ---
 
