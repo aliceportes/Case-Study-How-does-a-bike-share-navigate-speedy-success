@@ -43,7 +43,7 @@ Following the six phases of the data analysis process:
 ## Project Files
 
 - Data Cleaning and Analysis Code (`cyclistic_data_cleaning_analysis.R`)
-- Final Report (`Cyclistic Case Study Capstone.md`)
+- Final Report (`Cyclistic_Case_Study_Capstone.md`)
 - Visualization Presentation (`Cyclistic Visualization.pptx`)
 
 ---
