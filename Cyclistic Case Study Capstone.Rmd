@@ -226,7 +226,7 @@ To showcase everything I’ve learned throughout this journey, I also created a 
 
 
 - Comparing the number of rides per month
-![](images/comparing_monthly_usage_patterns.png) 
+![](Images/comparing_monthly_usage_patterns.png) 
 
 **Insights**
 
