@@ -44,8 +44,9 @@ The data license can be found on [License Information](https://www.divvybikes.co
 
 ## 5. Process Phase
 
-**Tools chosen and why:**  
-I chose **R** for data cleaning and transformation due to the dataset's large size, which would have been challenging to handle in Excel. For data visualization, I used **Tableau**, a tool I recently started learning and enjoyed working with during this project.
+**Tool chosen and why:**  
+I used **R** for data cleaning and transformation because of its strong capabilities for handling large datasets and performing efficient data manipulation — advantages not easily achievable in spreadsheet tools like Excel.  
+Since **R** was a core tool taught during the Google Data Analytics course, it aligned perfectly with the project requirements.
 
 **Loading and setting up the environment:**
 
@@ -101,7 +102,8 @@ na.omit() %>%
 ``` r
 mutate(trip_length = as.numeric(difftime(ended_at, started_at, units = "mins")),
          weekday = format(as.Date(started_at), "%A")) %>% 
-  select("ride_id", "rideable_type","started_at", "ended_at", "start_station_name", "end_station_name", "weekday", "trip_length", "member_casual") 
+  select("ride_id", "rideable_type","started_at", "ended_at", "start_station_name",
+  "end_station_name", "weekday", "trip_length", "member_casual") 
 ```
 
 - Filters the dataset to include only rides with a trip length between 1
@@ -211,10 +213,9 @@ ride_length <- cyclistic_clean_data %>%
 
 ## 8. Share Phase
 
-In this phase, it’s time to bring all the analysis to life through
-visualizations! I chose Tableau as the tool to visualize and share the
-data, as it was one of the key tools we explored during the Google Data
-Analytics course. To showcase everything I’ve learned throughout this
+For visualization, I selected **Tableau**, another tool introduced in the course, to create interactive dashboards and effectively communicate key findings.
+These visualizations reveal trends and patterns critical to understanding the differences between casual riders and annual members.
+To showcase everything I’ve learned throughout this
 journey, I also created a short PowerPoint presentation summarizing the
 project, which can be found in this repository
 
@@ -258,15 +259,18 @@ Based on the insights from all the visuals and analysis, here are the
 top three strategic recommendations to enhance Cyclistic’s operations
 and marketing efforts:
 
-- 1: Leverage seasonal peaks to target casual riders - Launch seasonal
+- 1: **Leverage seasonal peaks to target casual riders** - Launch seasonal
   promotions and campaigns during late spring and summer to convert
   casual riders into members.
 
-- 2: Develop weekend strategies - Introduce partnerships with tourist
+- 2: **Develop weekend strategies** - Introduce partnerships with tourist
   attractions to appeal to casual riders and access to coupons at
   restaurants and events to enhance their experience.
 
-- 3: Optimize and enhance services around key hub stations - Attract
+- 3: **Optimize and enhance services around key hub stations** - Attract
   casual riders by transforming their favorite stations into marketing
   hotspots, add eye-catching materials, easy sign-up QR codes, and
   irresistible first-ride rewards.
+
+## Final Remarks
+Thank you for reviewing my project!
